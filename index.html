@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="app.js"></script>
+    <title>Document</title>
+    <style>
+    :root{
+    --primary-color: yellow;
+    }
+    header, footer{
+    height: 110px;
+    background-color: var(--primary-color) 
+    }
+    textarea{
+        width:90%;
+        height:10vh;
+        display:block;
+        margin:1rem; 
+    }
+    #output{
+        border:1px solid black;
+        width:90%;
+        height:10vh;
+        margin:1rem; 
+    }
+    .btn-translate{
+    height:50px;
+   
+    }
+    .btntranslate{
+        background-color: #60b6d3;
+border-radius: 100rem;
+border-color: black;
+border-style:solid;
+height: 50%;
+border: var(--primary-color);
+    }
+    </style>
+</head>
+<body>
+    <h1><header>
+        <h2 style="text-align: center; position: relative; top: 30px;">MINION LANGAUGE TRANSLATION APP</h2><br>
+    </header></h1>
+    <textarea id="input" placeholder="Enter text, we will convert it into banana"></textarea><br/>
+    <div class="btn-translate">
+    <button id="btntranslate" style="background-color: yellow;
+    border-radius: 100rem;
+    border-color: black;
+    border-style:solid; height:50%">Translate</button>
+    </div><br/>
+    <div>Output:</div>
+    <div id="output"></div>
+    <script src="app.js" type="text/javacsript"></script> 
+    <footer></footer>
+</body>
+</html>
